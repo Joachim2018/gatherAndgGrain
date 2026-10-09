@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seasonal neighbourhood cooking, thoughtful wine, and a table waiting for you at Gather & Grain.">
+  <title>Gather & Grain | A good table, every day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg container" aria-label="Main navigation">
+      <a class="navbar-brand" href="index.html"><span class="brand-mark">G<span>&</span>G</span><span class="brand-name">GATHER <i>&</i> GRAIN</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Our story</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Find us</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-dark btn-nav" href="#reserve">Book a table <i class="bi bi-arrow-up-right"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home-carousel" aria-label="Restaurant highlights">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=2000" class="d-block w-100 hero-image" alt="Warmly lit restaurant dining room set for dinner">
+            <div class="hero-shade"></div>
+            <div class="carousel-caption hero-caption container">
+              <p class="eyebrow animate__animated animate__fadeInDown">A neighbourhood table in Portland</p>
+              <h1 class="animate__animated animate__fadeInUp">Come hungry.<br><em>Leave happy.</em></h1>
+              <p class="hero-copy animate__animated animate__fadeInUp">Good things grow close to home. We bring them to your table, with a little fire and a lot of heart.</p>
+              <a class="btn btn-citrus animate__animated animate__bounceIn" href="menu.html">Explore the menu <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=2000" class="d-block w-100 hero-image" alt="Freshly prepared seasonal food ready to share">
+            <div class="hero-shade"></div>
+            <div class="carousel-caption hero-caption container">
+              <p class="eyebrow">From our growers, with love</p>
+              <h2>In season.<br><em>On purpose.</em></h2>
+              <p class="hero-copy">A menu that follows the fields, the weather, and whatever looks beautiful at the market.</p>
+              <a class="btn btn-citrus" href="about.html">Meet our makers <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=2000" class="d-block w-100 hero-image" alt="Friends sharing a meal around a restaurant table">
+            <div class="hero-shade"></div>
+            <div class="carousel-caption hero-caption container">
+              <p class="eyebrow">Your seat is waiting</p>
+              <h2>Make room<br><em>for one more.</em></h2>
+              <p class="hero-copy">Long lunches, last-minute dinners, and the kind of nights you wish would last a little longer.</p>
+              <a class="btn btn-citrus" href="#reserve">Save your seat <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide"><span class="carousel-control-next-icon"></span></button>
+      </div>
+      <div class="hero-note"><span class="note-dot"></span> Open for dinner, Tuesday–Sunday <span class="note-separator">/</span> Portland, Oregon</div>
+    </section>
+
+    <section class="intro-section section-pad">
+      <div class="container intro-grid">
+        <div class="intro-label"><span class="eyebrow">A little about us</span><span class="vertical-rule"></span><span class="intro-index">01 / 04</span></div>
+        <div class="intro-copy"><h2 class="display-title">Food tastes better<br>when it <em>means something.</em></h2><p>We cook what the season gives us, work with people we believe in, and save the best seat for whoever walks through the door. Simple as that.</p><a class="text-link" href="about.html">The Gather & Grain story <i class="bi bi-arrow-up-right"></i></a></div>
+        <div class="intro-image-wrap"><img src="https://images.pexels.com/photos/5638732/pexels-photo-5638732.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Chef plating a fresh seasonal dish" loading="lazy"><span class="image-stamp">Good food<br>brings us<br>together.</span></div>
+      </div>
+    </section>
+
+    <section class="feature-band">
+      <div class="container feature-grid">
+        <div class="feature-heading"><span class="eyebrow">The good stuff</span><h2>Made with care.<br><em>Served with joy.</em></h2><a class="text-link light-link" href="menu.html">See what's cooking <i class="bi bi-arrow-up-right"></i></a></div>
+        <article class="feature-card"><span class="feature-number">01</span><i class="bi bi-flower1 feature-icon"></i><h3>Market-led</h3><p>Produce picked at its peak, from farms just down the road.</p></article>
+        <article class="feature-card"><span class="feature-number">02</span><i class="bi bi-fire feature-icon"></i><h3>Fire-kissed</h3><p>Live-fire cooking that lets good ingredients speak for themselves.</p></article>
+        <article class="feature-card"><span class="feature-number">03</span><i class="bi bi-cup-straw feature-icon"></i><h3>Always welcome</h3><p>Come for a bite or stay for the whole evening. There's room.</p></article>
+      </div>
+    </section>
+
+    <section class="menu-preview section-pad">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">A taste of the season</span><h2 class="display-title">A few <em>favourites.</em></h2></div><a class="text-link" href="menu.html">Full menu <i class="bi bi-arrow-up-right"></i></a></div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="dish-card"><div class="dish-image"><img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Bowl of handmade pasta with fresh herbs" loading="lazy"><span class="dish-tag">Guest favourite</span></div><div class="dish-info"><div><h3>Sunday suppers</h3><p>Handmade pasta, slow tomato, basil</p></div><span class="dish-price">$24</span></div></article></div>
+          <div class="col-md-4"><article class="dish-card"><div class="dish-image"><img src="https://loremflickr.com/900/700/roasted,vegetables?lock=44" alt="Roasted seasonal vegetables with herbs" loading="lazy"><span class="dish-tag">Plant forward</span></div><div class="dish-info"><div><h3>Market plate</h3><p>Today's garden, whipped feta, sourdough</p></div><span class="dish-price">$19</span></div></article></div>
+          <div class="col-md-4"><article class="dish-card"><div class="dish-image"><img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Seasonal dessert topped with fresh berries" loading="lazy"><span class="dish-tag">A sweet finish</span></div><div class="dish-info"><div><h3>Something sweet</h3><p>Olive oil cake, citrus, crème fraîche</p></div><span class="dish-price">$12</span></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="container video-layout"><div class="video-copy"><span class="eyebrow">A minute at our table</span><h2 class="display-title">A little fire.<br><em>A lot of feeling.</em></h2><p>See what happens when good ingredients meet a very warm welcome.</p><a class="text-link" href="about.html">Get to know us <i class="bi bi-arrow-up-right"></i></a></div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4?rel=0" title="Gather & Grain restaurant film" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
+    </section>
+
+    <section class="reservation-section section-pad" id="reserve">
+      <div class="container reservation-layout"><div class="reservation-copy"><span class="eyebrow">Pull up a chair</span><h2 class="display-title">We'll keep<br><em>a place for you.</em></h2><p>For tonight or a little further out, tell us when. We’ll take it from there.</p><p class="reservation-hours"><i class="bi bi-clock"></i> Tue–Sun, 4:30–10 pm <span>·</span> 21+ guests welcome</p></div><form class="form-panel" data-submit-kind="reservations"><h3>Make a reservation</h3><p class="form-intro">A good evening starts right here.</p><div class="row g-3"><div class="col-sm-6"><label for="booking-name" class="form-label">Your name</label><input class="form-control" id="booking-name" name="name" autocomplete="name" placeholder="Jamie Rivera" required></div><div class="col-sm-6"><label for="booking-email" class="form-label">Email address</label><input class="form-control" id="booking-email" name="email" type="email" autocomplete="email" placeholder="jamie@email.com" required></div><div class="col-sm-6"><label for="booking-date" class="form-label">Date</label><input class="form-control" id="booking-date" name="date" type="date" required></div><div class="col-sm-3"><label for="booking-time" class="form-label">Time</label><select class="form-select" id="booking-time" name="time" required><option value="" selected disabled>Select</option><option>4:30 pm</option><option>5:00 pm</option><option>5:30 pm</option><option>6:00 pm</option><option>6:30 pm</option><option>7:00 pm</option><option>7:30 pm</option><option>8:00 pm</option><option>8:30 pm</option></select></div><div class="col-sm-3"><label for="booking-guests" class="form-label">Guests</label><select class="form-select" id="booking-guests" name="guests" required><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div><div class="col-12"><label for="booking-notes" class="form-label">Anything we should know? <span class="optional-label">Optional</span></label><textarea class="form-control" id="booking-notes" name="notes" rows="2" placeholder="A birthday, dietary notes, a favourite table..."></textarea></div><div class="col-12"><button class="btn btn-dark btn-submit" type="submit">Request a table <i class="bi bi-arrow-right"></i></button><p class="form-status" role="status" aria-live="polite"></p></div></div></form></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="footer-brand" href="index.html"><span class="brand-mark">G<span>&</span>G</span><span class="brand-name">GATHER <i>&</i> GRAIN</span></a><p>Good food, good company,<br>room for everyone.</p><div class="footer-social"><span class="eyebrow">Follow along</span><div><a href="https://facebook.com" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="https://twitter.com" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a><a href="https://instagram.com" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="https://linkedin.com" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div></div></div><div class="container footer-bottom"><span>© 2026 Gather & Grain</span><span>Made for good company.</span><a href="contact.html">21 SE Alder St, Portland, OR</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
